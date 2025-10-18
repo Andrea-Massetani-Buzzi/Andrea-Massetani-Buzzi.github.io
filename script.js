@@ -132,16 +132,16 @@ function visualizzaPerCategoria() {
     }
     switch(categoriaScelta){
         case "lavoro":
-            logo.setAttribute("src","lavoro.png");
+            logo.setAttribute("src","./immagini/lavoro.png");
             break;
         case "casa":
-            logo.setAttribute("src","casa.png");
+            logo.setAttribute("src","./immagini/casa.png");
             break;
         case "tempo libero":
-            logo.setAttribute("src","tempoLib.png");
+            logo.setAttribute("src","./immagini/tempoLib.png");
             break;
         case "famiglia":
-            logo.setAttribute("src","famiglia.png");
+            logo.setAttribute("src","./immagini/famiglia.png");
             break;
     }
     risultato.innerHTML="";
