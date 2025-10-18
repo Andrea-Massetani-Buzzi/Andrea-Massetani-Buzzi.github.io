@@ -1,1 +1,25 @@
-Hello World!
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        EVENTO: <input type="text" id="nomeEvento" required>
+        DATA: <input type="date" id="dataEvento" required>
+        CATEGORIA: <div id="divCategorie">
+            <img src="lavoro.png" id="immagineLavoro">
+            <img src="casa.png" id="immagineCasa">
+            <img src="tempoLib.png" id="immagineTempoLib">
+            <img src="famiglia.png" id="immagineFamiglia">
+        </div>
+        <div id="bottoneCentrato"><button type="submit" id="bottoneRegistra">REGISTRA</button></div>
+    </form>
+    <button type="button" id="bottoneVisualizza">VISUALIZZA PER CATEGORIA</button>
+    <div id="risultato"></div>
+    <script src="script.js"></script>
+</body>
+</html>

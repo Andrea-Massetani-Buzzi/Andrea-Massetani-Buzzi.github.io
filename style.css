@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D6DDE5;
+}
+
+form {
+    color: #555555;
+    font-weight: bold;
+    width: 25%;
+    background-color: #C6EFBF;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: large;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+input[type="date"] {
+    font-size: larger;
+}
+
+form img {
+    margin: 2.5%;
+    width: 20%;
+}
+
+#divCategorie {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#bottoneCentrato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+
+#bottoneRegistra {
+    width: 100%;
+    padding: 3%;
+}
+
+button {
+    border-radius: 5px;
+    border-style: none;
+    background-color: #67AD5B;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#bottoneVisualizza {
+    padding: 1%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+#risultato {
+    background-color: #B1D2AD;
+    width: 26%;
+    border-radius: 5px;
+    padding: 30px;
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(22, 112, 17);
+}
